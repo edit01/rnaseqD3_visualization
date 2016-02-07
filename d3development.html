@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		.chart rect {
+			fill: steelblue;
+		}
+		.chart text {
+			fill: white;
+			font: 10px sans-serif;
+			text-anchor: end;
+		]
+		
+	</style>
+	<!--Attach dependencies-->
+	<script src="d3.min.js"></script>
+	
+</head>
+<body>
+	<section></section>
+	
+	<svg class="chart"></svg>
+	<script src="visual2.js"></script>
+	
+	<script type="text/javascript">		
+		var data = [4, 8, 15, 16, 23, 42];
+		
+		svgbargraph(data);
+		
+	</script>
+</body>
+
+<!--Call after body element loaded-->
+
+<!--<script src="visual.js"></script>-->
+</html>
